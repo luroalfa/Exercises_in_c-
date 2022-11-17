@@ -15,9 +15,7 @@ using namespace std;
 int main()
 {
     string name, apellido;
-    double salary, amtExtras, amtDobles, hrOrdinaria,
-        hrExtra, hrDoble, grossSalary, CCSS, IVM, BP, kmHomeToWork,
-        anualidad, incentivoDistanciaHTW, incentivoHrExtra, incentivoHrDoble, salaryExceso, timeWorked, hrExtrasDobles;
+    double salary, amtExtras, amtDobles, hrOrdinaria, hrExtra, hrDoble, grossSalary, CCSS, IVM, BP, kmHomeToWork, anualidad, incentivoDistanciaHTW, incentivoHrExtra, incentivoHrDoble, salaryExceso, timeWorked, hrExtrasDobles;
     int yearsWorked;
     const int incentivoYears = 5, amtAnnual = 2000, distanciaLaboral = 10, incentivoHrExtras = 10,
               incentivoHrDobles = 10;
