@@ -36,6 +36,7 @@ int main()
         cout << "     " << students[i] << "\t\t\t";
         printf("%.2f %s\n", average[i], "%"); // Printf function used for print 2 decimal
     }
+    return 0;
 }
 
 /*

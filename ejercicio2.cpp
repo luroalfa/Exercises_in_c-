@@ -28,7 +28,7 @@ int main()
     cin >> grade;
     cout << "Ingrese por favor las ausencias del estudiante.\n";
     cin >> absences;
-    system("clear"); // or command cls.
+    system("cls"); // or command cls.
     if (grade < 60 || absences >= 2)
     {
         cout << "El estudiante ha reprobado el curso, ";
@@ -42,6 +42,7 @@ int main()
     {
         cout << "El estudiante ha aplazado el curso.";
     }
+    return 0;
 }
 /*
     If you are in the Windows operating system, please use in the line 31 the command cls.

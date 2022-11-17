@@ -25,4 +25,5 @@ int main()
     perimeter = 2 * M_PI * radius;
     printf("%s%.2f%s", "El valor del área del circulo es: ", area, "cm²\n");
     printf("%s%.2f%s", "El valor del perimetro del circulo es: ", perimeter, "cm\n");
+    return 0;
 }

@@ -50,4 +50,5 @@ int main()
         cout << "La conversion de " << size << "GB a MB: " << (size * unitStandard) << "GB\n";
         break;
     }
+    return 0;
 }
